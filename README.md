@@ -1,7 +1,21 @@
-# Budget AI Assistant
+# Budget AI Assistant 🤖💰
 
-API REST de orçamento pessoal construída com Spring Boot e Spring AI. A aplicação interpreta comandos em linguagem natural, usa **Tool Calling** para registrar ou consultar transações reais e pode receber um áudio para transcrição e resposta em voz.
+API REST de gerenciamento financeiro desenvolvida com **Java, Spring Boot e Spring AI**.
 
+O projeto combina regras tradicionais de backend com **inteligência artificial**, permitindo registrar e consultar transações utilizando comandos em linguagem natural.
+
+A aplicação utiliza **Tool Calling** para que o modelo interprete a intenção do usuário, enquanto as operações reais permanecem sob controle da aplicação.
+
+## 🎯 Objetivo
+
+Demonstrar na prática a construção de uma API backend integrada a recursos de IA, mantendo separadas:
+
+- interpretação por IA;
+- regras de negócio;
+- persistência;
+- validações financeiras.
+
+## 🚀 Principais funcionalidades:
 ## O que o projeto faz
 
 - Cria e consulta transações financeiras;
